@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Texto:</strong>
+  <%= @entrada.texto %>
+</p>
+
+<p>
+  <strong>Fecha:</strong>
+  <%= @entrada.fecha %>
+</p>
+
+<p>
+  <strong>Parentid:</strong>
+  <%= @entrada.parentId %>
+</p>
+
+<p>
+  <strong>Usuario:</strong>
+  <%= @entrada.Usuario %>
+</p>
+
+<%= link_to 'Edit', edit_entrada_path(@entrada) %> |
+<%= link_to 'Back', entradas_path %>

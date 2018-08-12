@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Usuario: one
+  usuario2: 1
+  isVNombre: false
+  isVApellido: false
+  isVFechaNac: false
+  isVTelefono: false
+  isVCorreo: false
+
+two:
+  Usuario: two
+  usuario2: 1
+  isVNombre: false
+  isVApellido: false
+  isVFechaNac: false
+  isVTelefono: false
+  isVCorreo: false

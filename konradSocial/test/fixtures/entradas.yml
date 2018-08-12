@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  texto: MyString
+  fecha: 2018-08-11 22:13:45
+  parentId: 1
+  Usuario: one
+
+two:
+  texto: MyString
+  fecha: 2018-08-11 22:13:45
+  parentId: 1
+  Usuario: two

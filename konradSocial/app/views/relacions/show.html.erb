@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Usuario:</strong>
+  <%= @relacion.Usuario %>
+</p>
+
+<p>
+  <strong>Usuario2:</strong>
+  <%= @relacion.usuario2 %>
+</p>
+
+<p>
+  <strong>Isvnombre:</strong>
+  <%= @relacion.isVNombre %>
+</p>
+
+<p>
+  <strong>Isvapellido:</strong>
+  <%= @relacion.isVApellido %>
+</p>
+
+<p>
+  <strong>Isvfechanac:</strong>
+  <%= @relacion.isVFechaNac %>
+</p>
+
+<p>
+  <strong>Isvtelefono:</strong>
+  <%= @relacion.isVTelefono %>
+</p>
+
+<p>
+  <strong>Isvcorreo:</strong>
+  <%= @relacion.isVCorreo %>
+</p>
+
+<%= link_to 'Edit', edit_relacion_path(@relacion) %> |
+<%= link_to 'Back', relacions_path %>
